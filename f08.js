@@ -10,7 +10,9 @@
 const person = {
     name: "Vinay",
     age: "22",
-    hobbies: ["manga", "novel", "anime"]
+    hobbies: ["manga", "novel", "anime"],
+    "my hobbies": ["manga", "pokemon"] // key with spaces
+    // required double  quotes
 };
 console.log(person);
 
@@ -20,6 +22,10 @@ console.log(person);
 console.log(person.name);
 console.log(person.age);
 console.log(person.hobbies);
+
+// or
+console.log(person["name"]);
+console.log(person["my hobbies"]);
 
 //how to add key value pair to objects
 
