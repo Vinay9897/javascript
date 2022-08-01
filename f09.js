@@ -26,4 +26,9 @@ for (let key in person) {
 }
 
 
-console.log(typeof (Object.keys(person)));
+// console.log(typeof (Object.keys(person)));
+// console.log(Array.isArray(Object.keys(person)));
+
+for (let key of Object.keys(person)) {
+    console.log(person[key]);
+}
