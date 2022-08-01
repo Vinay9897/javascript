@@ -34,6 +34,20 @@ console.log(obj);
 
 //==============spread operator in object
 
+// same object cannot contain same keys
+const obj1 = {
+    key1: "value1",
+    key2: "value2",
+}
+const obj2 = {
+    key1: "value3",
+    key4: "value4",
+}
+// obj3 containing unique keys
+// const obj3 = { ...obj1, ...obj2 };
+// console.log(obj3);
 
+const obj3 = { ...obj1, ...obj2, key5: "value5" };
+console.log(obj3);
 
 
