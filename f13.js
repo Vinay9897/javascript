@@ -1,9 +1,7 @@
 // functions declaration
-
 function HappyBirthDay() {
     console.log("Happy BirthDay");
 }
-
 HappyBirthDay();
 
 
@@ -47,11 +45,14 @@ HappyBirthDay1();
 // ####################################
 
 
-//==== modified  isEven() program 
+//==== modified  isEven() program
 
-const isEven = number1 => number1 % 2 === 0;
-const ans = isEven(6);
-console.log(ans);
+// const isEven = number1 => number1 % 2 === 0;
+// const ans = isEven(6);
+// console.log(ans);
+
+
+
 
 
 
