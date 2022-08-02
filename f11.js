@@ -23,3 +23,4 @@ const band = {
 
 let { name, song, ...restProperty } = band;
 console.log(restProperty);
+console.log(song);
