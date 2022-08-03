@@ -35,8 +35,7 @@ data.add(
     { 2: 'two' },
 
 );
-data.set({ 1: 'one' }, { 2: "tow" });
-data.set([1, 2, 3], 'array');
+
 
 
 
