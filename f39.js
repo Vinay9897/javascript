@@ -1,5 +1,4 @@
-//function that create object
-// 2) key value pair object ko return karega
+// create new Object in function using function Object.create()
 
 const userMethods = {
     about: function () {
@@ -10,7 +9,7 @@ const userMethods = {
     }
 }
 function createObject(firstName, lastName, email, age, address) {
-    const user = {} // object in which we store all the data
+    const user = Object.create(userMethods);// object in which we store all the data
     //    key      =   value
     user.firstName = firstName;
     user.lastName = lastName;
