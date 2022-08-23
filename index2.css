@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    min-height: 60vh;
+    align-content: center;
+    background: url("bg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-height: 8vh;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+nav .nav-items {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav-items {
+    list-style-type: none;
+}
+
+nav .nav-items li a {
+    color: white;
+    font-size: larger;
+}
+
+.heading {
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.heading h1 {
+    color: red;
+}
+
+.heading .btn {
+    font-size: 1rem;
+    font-weight: 700;
+    color: color;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.section-todo {
+    margin: auto;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.form-todo {
+    /* border: 2px solid red; */
+    /* width: 95%; */
+    min-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.form-todo input[type=text] {
+    width: 79%;
+    min-height: 2rem;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+input[type=submit] {
+    width: 20%;
+    min-height: 2rem;
+    cursor: pointer;
+    background-color: #001119;
+    color: white;
+}
+
+
+/* ---------sign-up section------ */
+
+.section-signup {
+    margin: 5rem;
+    text-align: center;
+}
+
+.signup-form {
+    background-color: rgb(242, 242, 243);
+    max-width: 800px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.signup-form label {
+    display: block;
+    font-weight: 700;
+}
+
+.form-group {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.signup-form input {
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+}
+
+.signup-form textarea {
+    width: 100%;
+}
+
+.signup-form .btn {
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
