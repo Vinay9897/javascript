@@ -78,14 +78,15 @@ nav .nav-items li a {
 .section-todo {
     margin: auto;
     margin-top: 5rem;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     max-width: 800px;
+    width: 95%;
 }
 
 .form-todo {
     /* border: 2px solid red; */
-    /* width: 95%; */
     min-height: 2rem;
     display: flex;
     justify-content: space-between;
@@ -111,14 +112,14 @@ input[type=submit] {
 /* ---------sign-up section------ */
 
 .section-signup {
-    margin: 5rem;
+    /* margin: 5rem; */
     text-align: center;
 }
 
 .signup-form {
     background-color: rgb(242, 242, 243);
     max-width: 800px;
-    width: 95%;
+    /* width: 95%; */
     margin: auto;
     text-align: center;
     border-radius: 5px;

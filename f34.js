@@ -5,7 +5,7 @@ const user1 = {
     age: 22,
     about: function (hobby, favMusician) {
         console.log(this.name, this.age);
-        // console.log(this.name, this.age, hobby, favMusician);
+        console.log(this.name, this.age, hobby, favMusician);
 
         // we cannot use "this" keyword with about parameters(hobby and favMusician)
         // because they are not declare inside the object 
@@ -24,8 +24,8 @@ const user2 = {
 
 // with the help of call() method
 
-user1.about();
-// user1.about.call(user2); // for user2
+// user1.about();
+user1.about.call(user2); // for user2
 user1.about.call(user1, "reading", "moazrt");
 
 

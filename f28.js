@@ -37,9 +37,9 @@ person.set({ 1: 'one' }, '123');
 
 //========== destructuring with array
 
-// for (let [key, value] of person) {
-//     console.log(key, value);
-// }
+for (let [key, value] of person) {
+    console.log(key, value);
+}
 
 
 

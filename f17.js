@@ -13,27 +13,25 @@ const numbers = [1, 2, 3, 4];
 //  using forEach
 
 // any function withount its name is anonymous function
-// numbers.forEach(function (number, index) {
-//     console.log(`${number}*2 = ${number * 2} ------ ${index} index`);
-// });
+numbers.forEach(function (number, index) {
+    console.log(`${number}*2 = ${number * 2} ------ ${index} index`);
+});
 
 
-
-// forEach use with arrayObject
-
+// Array Objects
 const users = [
     { firstName: "vinay", age: 221 },
     { firstName: "vinay2", age: 22 },
     { firstName: "vinay23", age: 222 },
 ]
 
+// ================forEach use with arrayObject
+
 // users.forEach(function (user) {
-
 //     console.log(user.firstName);
-// }); 
+// });
 
-// forEach with arrow function
-
+//============ forEach with arrow function
 users.forEach(user = (user) => {
     console.log(user.firstName);
 });

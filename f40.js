@@ -1,5 +1,5 @@
 // create new Object in function using function Object.create()
-
+// prototype
 // const userMethods = {
 //     about: function () {
 //         return `${this.firstName}${this.lastName} is ${this.age} year old and his emailid is${this.email} and address ${this.address}`

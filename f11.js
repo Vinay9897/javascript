@@ -17,7 +17,7 @@ const band = {
 
 //================ destructuring
 
-// let { name: var1, song: var2 } = band;
+// const { name: var1, song: var2 } = band;
 // console.log(var1);
 // console.log(var2);
 

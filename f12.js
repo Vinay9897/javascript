@@ -8,7 +8,7 @@ const users = [
     { userId: 3, firstName: "priyansh", gender: "male" },
 ]
 
-// console.log(users);
+console.log(users);
 // ==============for of loops in array with objects
 // for (let user of users) {
 //     // console.log(user);  // for taking each object
@@ -20,14 +20,17 @@ const users = [
 
 // const [user1, user2, user3] = users;
 // console.log(user1);
+// console.log(user2);
+// console.log(user3);
 
 
 // first we destructure user1 from users then destructure firstName from user1
-// const [{ firstName }, user2, user3] = users;
-// console.log(firstName);
+const [{ firstName }, { gender }, { user3 }] = users;
+console.log(firstName);
+console.log(gender);
 
 // for name changing
-
-const [{ firstName: user1firstName, userId }, user2, user3] = users
-console.log(user1firstName);
-console.log(userId);
+        // defaultname  //newName      
+// const [{ firstName: user1firstName, userId }, user2, user3] = users
+// console.log(user1firstName);
+// console.log(userId);

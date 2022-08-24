@@ -1,14 +1,14 @@
 const fruits = ["apple", "orange", "banana", "grapes"];
 let fruits2 = [];
 //========== for loop in array
-// for (let i = 0; i < fruits.length; i++) {
-// console.log(fruits.i);
-// console.log("value :", fruits[i]); // value
-// console.log(i);  // index
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits.i);
+    console.log("value :", fruits[i]); // value
+    console.log(i);  // index
 
-// fruits2.push(fruits[i].toUpperCase());
-// }
-// console.log(fruits2);
+    fruits2.push(fruits[i].toUpperCase());
+}
+console.log(fruits2);
 
 
 //=========== for of loop in array

@@ -7,7 +7,6 @@
 //     const mul = (num1, num2) => num1 * num2;
 
 //     const hello = () => console.log("Hello Vinay");
-
 //     hello();
 //     console.log(mul(3, 5));
 //     console.log(addition(3, 5));

@@ -5,6 +5,7 @@ const person = {
     name: "Vinay",
     age: 22
 }
+person["anime"] = "pokemon";
 //add key with the name "email" 
 person[key] = "vinay.yadav_cs19@gla.ac.in";
 // console.log(person);
@@ -22,13 +23,13 @@ for (let key in person) {
 
     // template string
     // key-value pair with colon
-    // console.log(`${key} : ${person[key]}`)
+    console.log(`${key} : ${person[key]}`);
 }
 
 
 // console.log(typeof (Object.keys(person)));
 // console.log(Array.isArray(Object.keys(person)));
 
-for (let key of Object.keys(person)) {
-    console.log(person[key]);
+for (let val of Object.keys(person)) {
+    console.log(person[val]);
 }

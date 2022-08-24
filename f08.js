@@ -9,7 +9,7 @@
 // for objects we use curly braces{}
 const person = {
     name: "Vinay",
-    age: "22",
+    age: 22,
     hobbies: ["manga", "novel", "anime"],
     "my hobbies": ["manga", "pokemon"] // key with spaces
     // required double  quotes

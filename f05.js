@@ -12,7 +12,8 @@ console.log("num2  ", num2);
 
 // Reference data types
 // memory create in heap memory
-// both reference pointing to same address;
+
+// both reference (array1 & array2) pointing to same address;
 let array1 = ["item1", "item2"]
 let array2 = array1;
 console.log(array1); // ex 0x11

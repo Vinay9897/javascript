@@ -10,7 +10,7 @@ const value2 = "myvalue2";
 //     key1: value1,
 //     key2: value2
 // }
-// console.log(obj); we want keynames : "objects1" and  " objects2"
+// console.log(obj); //we want keynames : "objects1" and  " objects2"
 
 //=====so we have to compute them
 
@@ -24,13 +24,13 @@ console.log(obj);
 
 //=========== spread operator with array
 
-// const array1 = [1, 2, 3];
-// const array2 = [5, 6, 7];
+const array1 = [1, 2, 3];
+const array2 = [5, 6, 7];
 
-// const newArray = [...array1, ...array2];
-// console.log(newArray);
-// const newArray = [..."123534"];
-// console.log(newArray);
+const newArray = [...array1, ...array2];
+console.log(newArray);
+const newArray1 = [..."123534"];
+console.log(newArray1);
 
 //==============spread operator in object
 
@@ -44,10 +44,9 @@ const obj2 = {
     key4: "value4",
 }
 // obj3 containing unique keys
-// const obj3 = { ...obj1, ...obj2 };
-// console.log(obj3);
-
-const obj3 = { ...obj1, ...obj2, key5: "value5" };
+const obj3 = { ...obj1, ...obj2 };
 console.log(obj3);
+
+// cosole.log(obj3);
 
 

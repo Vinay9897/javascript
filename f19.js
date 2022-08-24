@@ -1,5 +1,6 @@
 // filter method
 
+// It is used to filter the necessary data from the data.  
 const numbers = [1, 3, 2, 6, 4, 8];
 
 const isEven = (number) => {

@@ -7,8 +7,7 @@ const c = website.style.color = "blue";
 
 // id selector
 let mainHeading = document.querySelector("#main-heading");
-const heading = mainHeading.textContent = "MANAGE YOUR TASK";
-console.log(heading);
+console.log(mainHeading);
 
 // class selector
 const navitems = document.querySelector(".nav-item");

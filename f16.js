@@ -8,6 +8,5 @@ function fun1() {
     }
     return hello;
 }
-
 const ans = fun1();
 console.log(ans());

@@ -1,7 +1,9 @@
 // map method
 
 const numbers = [1, 2, 3, 4, 5];
+
 // ===================================start====
+
 // const square = function (number) {
 //     return number * number;
 //     // console.log(number * number);
@@ -16,15 +18,15 @@ const numbers = [1, 2, 3, 4, 5];
 // or
 
 // ==============START===============
-// const numbers = [1,2,3,4,5];
+
 
 // const square = (number) => {
 //     return number * number;
 // }
 
-// const newSquareArray = numbers.map(square);
+// const newSquareArray1 = numbers.map(square);
 
-// console.log(newSquareArray);
+// console.log(newSquareArray1);
 
 // ================END=========================
 
@@ -36,10 +38,10 @@ const numbers = [1, 2, 3, 4, 5];
 // =================START================
 // Using anonymous function
 
-// const newSquareArray = numbers.map(function (number) {
+// const newSquareArray2 = numbers.map(function (number) {
 //     return number * number;
 // });
-// console.log(newSquareArray);
+// console.log(newSquareArray2);
 
 // =====================END===============
 

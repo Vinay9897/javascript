@@ -2,6 +2,7 @@
 
 let firstName;
 console.log(typeof firstName);
+
 // null
 // null is null but showing object
 //This is bug or error of javascript

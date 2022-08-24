@@ -32,9 +32,10 @@ console.log(unique);
 const data = new Set();
 data.add(
     { "1": 'One' },
-    { 2: 'two' },
+    { "2": 'two' },
 
 );
+console.log(data);
 
 
 

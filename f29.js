@@ -7,17 +7,17 @@ const obj = {
     key2: "value2"
 }
 
-// one way of cloning
+// one way of cloning  using spread operator
 // const obj2 = { ...obj };
-// obj.key3 = "value3";
+obj.key3 = "value3";
 
 // second way of cloning
-// const obj2 = Object.assign({}, obj);
-// obj.key4 = "value4";
+const obj2 = Object.assign({}, obj);
+obj.key4 = "value4";
 
 
-// console.log(obj);
-// console.log(obj2);
+console.log(obj);
+console.log(obj2);
 
 
 

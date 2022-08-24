@@ -3,7 +3,6 @@
 // variable can store some information
 // we can use tha information later 
 // we can change that information later
-
 var firstName = "Vinay";
 
 // use a variable
