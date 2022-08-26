@@ -1,5 +1,9 @@
 //  using innerHTML, add html Element
 
+//append ---add at last
+//prepend -- add at first
+//remove --remove the 
+
 const todolist = document.querySelector(".todo-list");
 todolist.innerHTML += "<li> New Todo </li>";
 
@@ -23,6 +27,12 @@ newTodoItem2.textContent = "New Todo 3";
 
 // add in the element of todolist class
 
-todolist.append(newTodoItem2);
+todolist.prepend(newTodoItem2);
+
+// todolist.remove();
+
+
+
+
 
 

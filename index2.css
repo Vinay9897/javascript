@@ -90,7 +90,7 @@ nav .nav-items li a {
     min-height: 2rem;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 .form-todo input[type=text] {
@@ -100,7 +100,7 @@ nav .nav-items li a {
     font-weight: 700;
 }
 
-input[type=submit] {
+.form-todo input[type=submit] {
     width: 20%;
     min-height: 2rem;
     cursor: pointer;
@@ -108,11 +108,27 @@ input[type=submit] {
     color: white;
 }
 
+.todo-list {
+    margin-top: 1rem;
+    color: blue;
+    text-align: left;
+    /* min-height: 5vh; */
+    font-size: large;
+}
+
+.todo-list li {
+    background-color: seagreen;
+    margin-top: 1rem;
+    list-style-type: none;
+    padding: 0.7rem;
+    text-transform: capitalize;
+}
+
 
 /* ---------sign-up section------ */
 
 .section-signup {
-    /* margin: 5rem; */
+    margin-top: 5rem;
     text-align: center;
 }
 
