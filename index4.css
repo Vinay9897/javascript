@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
+
+
+.mybuttons {
+    display: flex;
+    /* margin: auto; */
+    /* position: absolute; */
+}
+
+.button {
+    cursor: pointer;
+}
