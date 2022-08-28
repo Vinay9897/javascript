@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 60vh;
+    position: relative;
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    background-color: rgb(82, 5, 5);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
