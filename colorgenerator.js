@@ -1,7 +1,7 @@
 const button = document.querySelector("button");
 console.log(button.textContent);
 const body = document.body;
-const h1 = document.querySelector("h1");
+const span = document.querySelector("span");
 
 function randomColorGenerator() {
     const red = Math.floor(Math.random() * 256);
@@ -15,7 +15,7 @@ function randomColorGenerator() {
 button.addEventListener("click", () => {
     const randomNumber = randomColorGenerator();
     body.style.backgroundColor = randomNumber;
-    h1.innerHTML = "Color :" + randomNumber;
+    span.textContent = randomNumber;
     console.log(randomNumber);
 })
 
