@@ -122,6 +122,14 @@ nav .nav-items li a {
     list-style-type: none;
     padding: 0.7rem;
     text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-btn {
+    padding: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 
