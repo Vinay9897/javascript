@@ -7,8 +7,8 @@ const user1 = {
         console.log(this.name, this.age);
         console.log(this.name, this.age, hobby, favMusician);
 
-        // we cannot use "this" keyword with about parameters(hobby and favMusician)
-        // because they are not declare inside the object 
+        // we cannot use "this" keyword with parameters(hobby and favMusician)
+        // because they are not declare inside the object  user1
     }
 }
 
@@ -26,7 +26,7 @@ const user2 = {
 
 // user1.about();
 user1.about.call(user2); // for user2
-user1.about.call(user1, "reading", "moazrt");
+user1.about.call(user1, "reading", "moazrt"); //for extra param 
 
 
 // In the call() function we pass that object(e.g user2) , for which we are calling method (e.g: about())
