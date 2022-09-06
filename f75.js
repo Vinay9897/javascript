@@ -48,7 +48,8 @@ xhr.onload = () => {
         console.log(URL2);
         xhr2.open("GET", URL2);
         xhr2.onload = () => {
-            const response2 = URL2.response;
+            // console.log(xhr2.readyState);
+            const response2 = xhr2.response;
             const data2 = JSON.parse(response2);
             console.log(data2);
         }
@@ -61,6 +62,7 @@ xhr.onload = () => {
 xhr.onerror = () => {
     console.log("Network error");
 }
+xhr.send();
 
 
 
