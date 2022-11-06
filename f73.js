@@ -9,7 +9,11 @@ Promise.resolve(5).then(value => {
 
 function myPromis() {
     return new Promise((resolve, reject) => {
-        resolve("vinay");
+        const value = false;
+        if (value)
+            resolve("vinay");
+        else
+            reject("error");
     })
 }
 
@@ -28,4 +32,6 @@ myPromis().then((resolve_value) => {
 }).then((resolve_value) => {
     console.log(resolve_value);
     return resolve_value;
+}).catch(() => {
+    console.log("caught error");
 })
