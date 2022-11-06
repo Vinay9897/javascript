@@ -15,7 +15,7 @@ function createObject(firstName, lastName, email, age, address) {
     user.lastName = lastName;
     user.email = email;
     user.age = age;
-    // user.address = address;
+    user.address = address;
     // user.about = userMethods.about;
     // user.is18 = userMethods.is18;
     return user;

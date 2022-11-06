@@ -3,8 +3,10 @@
 const key = "email";
 const person = {
     name: "Vinay",
-    age: 22
+    age: 22,
 }
+
+person.lastname = "Yadav";
 person["anime"] = "pokemon";
 //add key with the name "email" 
 person[key] = "vinay.yadav_cs19@gla.ac.in";
@@ -17,7 +19,7 @@ person[key] = "vinay.yadav_cs19@gla.ac.in";
 
 for (let key in person) {
     // console.log(key);
-    // console.log(person.key); // here we are checking string "key" name key
+    console.log(person.key); // here we are checking string "key" name key
     //  in whole object(3 keys) that's why 3 undefined
     // console.log(person[key]);
 
@@ -30,6 +32,6 @@ for (let key in person) {
 // console.log(typeof (Object.keys(person)));
 // console.log(Array.isArray(Object.keys(person)));
 
-for (let val of Object.keys(person)) {
-    console.log(person[val]);
-}
+// for (let val of Object.keys(person)) {
+//     console.log(person[val]);
+// }

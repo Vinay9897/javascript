@@ -20,13 +20,13 @@ const numbers = [1, 2, 3, 4, 5];
 // ==============START===============
 
 
-// const square = (number) => {
-//     return number * number;
-// }
+const square = (number) => {
+    return number * number;
+}
 
-// const newSquareArray1 = numbers.map(square);
+const newSquareArray1 = numbers.map(square);
 
-// console.log(newSquareArray1);
+console.log(newSquareArray1);
 
 // ================END=========================
 
@@ -38,10 +38,10 @@ const numbers = [1, 2, 3, 4, 5];
 // =================START================
 // Using anonymous function
 
-// const newSquareArray2 = numbers.map(function (number) {
-//     return number * number;
-// });
-// console.log(newSquareArray2);
+const newSquareArray2 = numbers.map(function (number) {
+    return number * number;
+});
+console.log(newSquareArray2);
 
 // =====================END===============
 

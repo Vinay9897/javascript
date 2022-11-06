@@ -30,10 +30,10 @@ person.set([1, 2, 3], "array");
 person.set("a", "value");
 person.set({ 1: 'one' }, '123');
 // console.log(person);
-// for (let key of person.keys()) {
-// console.log(key, typeof key);
-// // console.log(Array.isArray(key));
-// }
+for (let key of person.keys()) {
+    console.log(key, typeof key);
+    // console.log(Array.isArray(key));
+}
 
 //========== destructuring with array
 

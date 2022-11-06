@@ -1,4 +1,6 @@
 // call back functions
+// At the completion of one function execution another function execution start
+
 
 function fun2(name) {
     console.log(`my name is ${name}`);

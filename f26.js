@@ -2,10 +2,10 @@
 
 // iterable are those ,in which we can use loops
 // string ,array are iterable
-// const firstName = "harshit";
-// for (let char of firstName) {
-//     console.log(char);
-// }
+const firstName = "harshit";
+for (let char of firstName) {
+    console.log(char);
+}
 
 // const items = ['item', 'items', 'items']
 // for (let word of items) {

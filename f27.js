@@ -7,7 +7,7 @@
 // unique items only (no duplicates allowed)
 
 const numbers = new Set([1, 2, 2, 3, 3, 5, 5, 6]);
-// console.log(numbers);
+console.log(numbers);
 
 // const numb = new Set();
 // numb.add(1);

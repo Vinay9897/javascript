@@ -4,7 +4,7 @@ const obj = {
     id: 1,
     age: 23,
     name: "vinay",
-    // hobbie: { anime: "Tokyo Ghoul" },
+    hobbie: { anime: "Tokyo Ghoul" },
 }
 // this is chaining
 // console.log(obj.hobbie.anime);.

@@ -14,7 +14,7 @@ const myArray = ['item1', 'item2', 'item3'];
 // store deleted item into another varible
 
 console.log(myArray);
-const deletedItems = myArray.splice(0, 2, "InsertedItem");
+const deletedItems = myArray.splice(1, 2, "InsertedItem");
 console.log(myArray);
 
 console.log(deletedItems);

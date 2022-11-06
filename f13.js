@@ -15,7 +15,7 @@ const Number = function (x) {
 
 // storing data in variables of function
 const data = Number(12);
-console.log(data);
+console.log(typeof data);
 
 
 // Arrow function

@@ -10,7 +10,7 @@ console.log(typeof null);
 
 
 //BigInt
-let myNumber = BigInt(123243827973298792372);
+let myNumber = BigInt(123243827973298792372n);
 // or
 let myNum = 123n;
 

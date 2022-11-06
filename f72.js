@@ -4,12 +4,12 @@
 
 function myPromise() {
     return new Promise((resolve, reject) => {
-        // const value = true;
-        const value = false;
+        const value = true;
+        // const value = false;
         setTimeout(
             () => {
                 if (value) {
-                    resolve();
+                    resolve("value");
                 }
                 else
                     reject();
@@ -18,10 +18,12 @@ function myPromise() {
     })
 }
 
-myPromise().then(
+const data = myPromise().then(
     () => {
         console.log("resolve");
     }
 ).catch(() => {
     console.log("rejected");
-})
+});
+
+console.log(data);

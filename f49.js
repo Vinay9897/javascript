@@ -1,9 +1,9 @@
 // get the root(document is the rootNode) node
 const rootNode = document.getRootNode();
-console.log(rootNode);
+// console.log(rootNode);
 const htmlElementNode = rootNode.childNodes; // <html> ...</html>
-console.log(htmlElementNode);
-console.log(htmlElementNode[0]);
+// console.log(htmlElementNode);
+// console.log(htmlElementNode[0]);
 // console.log(htmlElementNode[1]); // undefined because,It have one childNode that is html
 const headElementNode = htmlElementNode[0].childNodes[0]; // first child // <head>...</head>
 console.log(headElementNode);

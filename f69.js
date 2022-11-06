@@ -28,18 +28,18 @@ const heading7 = document.querySelector(".heading7");
 
 //==================== callback hell
 
-// setTimeout(() => {
-//     heading1.textContent = "Heading 1";
-//     setTimeout(() => {
-//         heading2.textContent = "Heading 2";
-//         setTimeout(() => {
-//             heading3.textContent = "Heading 3";
-//             setTimeout(() => {
-//                 heading4.textContent = "Heading 4";
-//             }, 2000);
-//         }, 2000);
-//     }, 2000);
-// }, 1000);
+setTimeout(() => {
+    heading1.textContent = "Heading 1";
+    setTimeout(() => {
+        heading2.textContent = "Heading 2";
+        setTimeout(() => {
+            heading3.textContent = "Heading 3";
+            setTimeout(() => {
+                heading4.textContent = "Heading 4";
+            }, 2000);
+        }, 2000);
+    }, 2000);
+}, 1000);
 // this is also not efficient way
 
 // ===========pyramid of doom
